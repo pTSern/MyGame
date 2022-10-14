@@ -1,0 +1,28 @@
+Sign format: <is static><access specifier>_<variable type><is pointer><variable name>
+
+<is static>: + No: <nothing> (not a static type)
+	     + Yes: s (is a Static type)
+
+<access specifier>: + public: g (stand for Global)
+		    + private: p (stand for Private)
+		    + protected: m (stand for Member)
+
+<variable type>: + class/struct: <nothing>
+		 + int: n (stand for iNtegers numbers)
+		 + float: f (stand for Float)
+		 + string: s (stand for String)
+		 + vector: v (stand for Vector)
+		 + map: m (stand for Map)
+		 + enum: e (stand for Enum)
+		 + function: fn (stand for FunctioN)
+
+<is pointer>: + NO: <nothing> (not a pointer)
+	      + YES: p (is a Pointer)
+
+<variable name>: whatever u want. But upper the first lectter
+
+EX: sp_pInstane -> + <Sp_pInstane> this is a static type
+		   + <sP_pInstane> access sepcifier: private
+		   + <sp_pInstane> variable type: nothing -> it a class or a struct
+		   + <sp_PInstane> this is a pointer
+		   + <sp_pINSTANE> this variable's name: instance 
